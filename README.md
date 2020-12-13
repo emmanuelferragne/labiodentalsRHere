@@ -1,4 +1,7 @@
 # Labiodentals /r/ here to stay
+<p align="center">
+<img src="https://github.com/emmanuelferragne/labiodentalsRHere/blob/master/imOccAndEllipse.png" width="600"/>
+</p>
 
 This repo contains links to the deep learning models we used in our forthcoming publication.
 
