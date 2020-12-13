@@ -1,4 +1,4 @@
-# labiodentalsRHere
+# Labiodentals /r/ here to stay
 
 This repo contains links to the deep learning models we used in our forthcoming publication.
 
