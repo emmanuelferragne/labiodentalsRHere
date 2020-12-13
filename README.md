@@ -18,7 +18,7 @@ analyzeNetwork(netAllRvsW)
 imName = 'demoRClassif.bmp';
 %alternatively:
 %imName = 'demoWClassif.bmp';
-% crop and resize
+% crop image to extract upper part (front cam) and resize
 myIm = imresize(imcrop(imread(imName), [2, 8, 765, 290]), [300, 800]);
 % view image
 imshow(myIm)
