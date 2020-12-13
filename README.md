@@ -44,3 +44,4 @@ imshow(outImClass);
 
 
 ```
+Alternatively, you can (theoretically) open the ONNX files containing both network architecture and weights with your favourite deep learning framework. 
