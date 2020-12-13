@@ -6,7 +6,7 @@ If you are only interested in visualizing the neural network architecture we use
 
 If you are only interested in visualizing the neural network architecture we used for **semantic segmentation**, download the model [here](https://cloud.parisdescartes.fr/index.php/s/AJJyJZLWPiSci3T) in ONNX formant, and open it with the freely available [Neutron visualizer](https://github.com/lutzroeder/netron).
 
-If you have Matlab Deep Learning Toolbox and want to replicate our **classification**, dowload the model [here](https://cloud.parisdescartes.fr/index.php/s/qemjePfsrj7649t) and the two .bmp images from this repo. Then in Matlab:
+If you have Matlab Deep Learning Toolbox and want to replicate our **classification**, dowload the model [here](https://cloud.parisdescartes.fr/index.php/s/qemjePfsrj7649t) and the two .bmp images from this repo. Then, in Matlab:
 ```matlab
 load netAllRvsW.mat
 % visualize network
@@ -23,4 +23,21 @@ imshow(myIm)
 hatLabel = classify(netAllRvsW, myIm);
 
 ```
+If you have Matlab Deep Learning Toolbox and Computer Vision Toolbox and want to see how our **semantic segmentation** model works, download the model [here](https://cloud.parisdescartes.fr/index.php/s/XBSKkAsdXGX4rsG) and the demo .png image from this repo. Then, in Matlab:
+```matlab
+load segnetMouth.mat
+% visualize network
+analyzeNetwork(segnetMouth)
+%load demo image
+myIm = imread('RForSegmentation.png');
+%label pixels
+mySeg = semanticseg(myIm, segnetMouth);
+%define colormap
+cmap = [255 0 0; 0 0 255]/255;
+%overlay segmentation
+outImClass = labeloverlay(myIm, mySeg, 'Colormap', cmap);
+%plot image
+imshow(outImClass);
 
+
+```
