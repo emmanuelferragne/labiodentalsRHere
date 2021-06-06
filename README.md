@@ -3,7 +3,7 @@
 <img src="https://github.com/emmanuelferragne/labiodentalsRHere/blob/main/imOccAndEllipse.png" width="800"/>
 </p>
 
-This repo contains links to the deep learning models we used in our forthcoming publication.
+This repo contains links to the deep learning models we used in our publication “Labiodentals /r/ here to stay: Deep learning shows us why” (full ref further below).
 
 If you are only interested in visualizing the neural network architecture we used for **classification**, download the model [here](https://cloud.parisdescartes.fr/index.php/s/wWzdgGzm47pks7J) in ONNX format, and open it with the freely available [Neutron visualizer](https://github.com/lutzroeder/netron).
 
