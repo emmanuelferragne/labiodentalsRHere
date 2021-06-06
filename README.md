@@ -46,7 +46,7 @@ imshow(outImClass);
 ```
 Alternatively, you can (theoretically) open the ONNX files containing both network architecture and weights with your favourite deep learning framework. 
 # Cite
-coming soon...
+Hannah King and Emmanuel Ferragne, “Labiodentals /r/ here to stay: Deep learning shows us why”, Anglophonia [Online], 30 | 2020, Online since 20 December 2020, connection on 06 June 2021. URL: http://journals.openedition.org/anglophonia/3424
 
 # Contact
 If you have questions about this research, please feel free to send an email to [Hannah King](mailto:hannahhmking@gmail.com) or [Emmanuel Ferragne](mailto:emmanuel.ferragne@u-paris.fr)
